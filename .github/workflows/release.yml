@@ -14,7 +14,7 @@ env:
   # renovate: datasource=python-version depName=python
   PYTHON_VERSION: 3.14
   # renovate: datasource=pypi depName=uv
-  UV_VERSION: 0.12.9
+  UV_VERSION: 0.12.13
 
 jobs:
   release:
@@ -31,7 +31,7 @@ jobs:
         with:
           persist-credentials: false
       - name: Install uv ${{ env.UV_VERSION }} & Python ${{ env.PYTHON_VERSION }}
-        uses: astral-sh/setup-uv@20cfd1bf945f4377ade1205e4dbc17946fc9a30d  # v10.0.1
+        uses: astral-sh/setup-uv@bec219d24cd3e171d82865faccec33120bb574f4  # v10.1.0
         with:
           # Purposefully disabling cache for release operations
           enable-cache: false
