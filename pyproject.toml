@@ -39,10 +39,12 @@ dependencies = [
     "djangorestframework>=3.16",
     "python-dateutil",
 ]
-urls.Documentation = "https://drf-haystack.readthedocs.io"
-urls.Homepage = "https://github.com/ulgens/drf-haystack"
-urls.Issues = "https://github.com/ulgens/drf-haystack/issues"
-urls.Repository = "https://github.com/ulgens/drf-haystack.git"
+
+[project.urls]
+Documentation = "https://drf-haystack.readthedocs.io"
+Homepage = "https://github.com/ulgens/drf-haystack"
+Issues = "https://github.com/ulgens/drf-haystack/issues"
+Repository = "https://github.com/ulgens/drf-haystack.git"
 
 [dependency-groups]
 dev = [
@@ -63,16 +65,14 @@ docs = [
 [tool.uv]
 default-groups = [ "dev", "test" ]
 fork-strategy = "fewest"
-build-backend.module-root = ""
-build-backend.source-exclude = [
+
+[tool.uv.build-backend]
+module-root = ""
+source-exclude = [
     "docs/_build",
 ]
-build-backend.source-include = [
+source-include = [
     "LICENSE.txt",
     "docs/**",
     "tests/**",
 ]
-
-[tool.pyproject-fmt]
-indent = 4
-keep_full_version = true
