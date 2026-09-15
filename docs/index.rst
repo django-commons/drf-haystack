@@ -99,7 +99,7 @@ This library has mainly been written by `me <https://github.com/rhblind>`_ while
 at `Inonit <https://github.com/inonit>`_. I have also had some help from these amazing people!
 Thanks guys!
 
-    - See the full list of `contributors <https://github.com/rhblind/drf-haystack/graphs/contributors>`_.
+    - See the full list of `contributors <https://github.com/ulgens/drf-haystack/graphs/contributors>`_.
 
 Changelog
 =========

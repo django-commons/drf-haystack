@@ -4,7 +4,7 @@ Haystack for Django REST Framework
 Build status
 ------------
 
-[![Coverage Status](https://coveralls.io/repos/github/rhblind/drf-haystack/badge.svg?branch=main)](https://coveralls.io/github/rhblind/drf-haystack?branch=main)
+[![Coverage Status](https://coveralls.io/repos/github/ulgens/drf-haystack/badge.svg?branch=main)](https://coveralls.io/github/ulgens/drf-haystack?branch=main)
 [![PyPI version](https://badge.fury.io/py/drf-haystack.svg)](https://badge.fury.io/py/drf-haystack)
 [![Documentation Status](https://readthedocs.org/projects/drf-haystack/badge/?version=latest)](http://drf-haystack.readthedocs.io/en/latest/?badge=latest)
 
