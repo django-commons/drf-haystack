@@ -42,9 +42,9 @@ dependencies = [
 
 [project.urls]
 Documentation = "https://drf-haystack.readthedocs.io"
-Homepage = "https://github.com/ulgens/drf-haystack"
-Issues = "https://github.com/ulgens/drf-haystack/issues"
-Repository = "https://github.com/ulgens/drf-haystack.git"
+Homepage = "https://github.com/django-commons/drf-haystack"
+Issues = "https://github.com/django-commons/drf-haystack/issues"
+Repository = "https://github.com/django-commons/drf-haystack.git"
 
 [dependency-groups]
 dev = [

@@ -96,7 +96,7 @@ intersphinx_mapping = {
 
 # Configurations for extlinks
 extlinks = {
-    "drf-pr": ("https://github.com/ulgens/drf-haystack/pull/%s", "PR#%s"),
-    "drf-issue": ("https://github.com/ulgens/drf-haystack/issues/%s", "#%s"),
+    "drf-pr": ("https://github.com/django-commons/drf-haystack/pull/%s", "PR#%s"),
+    "drf-issue": ("https://github.com/django-commons/drf-haystack/issues/%s", "#%s"),
     "haystack-issue": ("https://github.com/django-haystack/django-haystack/issues/%s", "#%s"),
 }
