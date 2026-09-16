@@ -4,7 +4,7 @@ requires = [ "uv-build>=0.12.1,<0.13" ]
 
 [project]
 name = "drf-haystack"
-version = "1.9.1"
+version = "1.9.3"
 description = "Makes Haystack play nice with Django REST Framework"
 readme = "README.md"
 license = "MIT"
