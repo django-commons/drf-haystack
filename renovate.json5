@@ -18,5 +18,12 @@
       "matchDatasources": ["pypi"],
       "allowedVersions": "9.0",
     },
+    {
+      // Stay on the elasticsearch-py 7.x, django-haystack doesn't support higher.
+      // https://github.com/django-commons/drf-haystack/issues/351
+      "matchPackageNames": ["elasticsearch"],
+      "matchDatasources": ["pypi"],
+      "allowedVersions": "7",
+    },
   ],
 }
