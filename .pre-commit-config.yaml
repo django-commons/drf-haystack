@@ -41,6 +41,7 @@ repos:
     rev: 0.38.0
     hooks:
       - id: check-github-workflows
+      - id: check-github-workflows-require-timeout
       - id: check-renovate
         files: ^renovate.json5$
         language: python

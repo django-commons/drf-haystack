@@ -21,6 +21,7 @@ jobs:
     name: Test (Python ${{ matrix.python-version }}, Django ${{ matrix.django-version }}, Elasticsearch ${{ matrix.elastic-version
       }}, DRF ${{ matrix.drf-version }})
     runs-on: ubuntu-24.04
+    timeout-minutes: 3
 
     strategy:
       fail-fast: false
