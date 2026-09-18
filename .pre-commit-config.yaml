@@ -36,3 +36,13 @@ repos:
     rev: v0.21.0
     hooks:
       - id: yamlfmt
+
+  - repo: https://github.com/python-jsonschema/check-jsonschema
+    rev: 0.38.0
+    hooks:
+      - id: check-github-workflows
+      - id: check-renovate
+        files: ^renovate.json5$
+        language: python
+        additional_dependencies:
+          - pyjson5==2.0.1
