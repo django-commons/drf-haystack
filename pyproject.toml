@@ -51,7 +51,7 @@ Repository = "https://github.com/django-commons/drf-haystack.git"
 [dependency-groups]
 dev = [
     "prek==0.5.3",
-    "ruff==0.16.7",
+    "ruff==0.16.8",
 ]
 test = [
     "coverage==7.16.1",
