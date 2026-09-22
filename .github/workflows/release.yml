@@ -14,7 +14,7 @@ env:
   # renovate: datasource=python-version depName=python
   PYTHON_VERSION: 3.14
   # renovate: datasource=pypi depName=uv
-  UV_VERSION: 0.12.15
+  UV_VERSION: 0.12.17
 
 jobs:
   release:
