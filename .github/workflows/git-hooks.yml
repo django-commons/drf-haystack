@@ -23,4 +23,4 @@ jobs:
         with:
           persist-credentials: false
 
-      - uses: j178/prek-action@4e14d07f9231acabce116ccfca13b13dd9755ece  # v3.0.0
+      - uses: j178/prek-action@7b101f8338a08d2bd6fdb3625e4e7692428763a3  # v3.1.1
